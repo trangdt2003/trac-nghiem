@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(255, 253, 253);
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgb(238, 231, 231);
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  form.example button:hover {
+    background: #0b7dda;
+  }
+
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/*table*/
+.myTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.myTable th, .myTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.myTable tr:nth-child(even){background-color: #f2f2f2;}
+
+.myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.myImageClass {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.correctAnswer {
+    color: green;
+    font-weight: bold;
+}
+
+
+
+/*search*/
+.search-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid dodgerblue;
+}
+
+#qnasTable img {
+    max-width: 100px;
+    height: auto;
+}
+
+#questionsTable img {
+    max-width: 100px;
+    height: auto;
+}
+

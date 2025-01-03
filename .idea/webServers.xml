@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="085c066b-2c84-431e-a85f-1ea4341a971b" name="hhh" url="http://103.74.116.63">
+        <fileTransfer rootFolder="/domains/buituanhuy.i-tracnghiem.com/public_html" host="103.74.116.63" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
